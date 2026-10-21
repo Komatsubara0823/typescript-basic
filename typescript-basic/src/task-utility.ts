@@ -9,4 +9,4 @@ type Draft = Partial<Post>;
 
 type List = Pick<Post, 'id' | 'title'>;
 
-type Published = Required<Post>;
+type Published =  Readonly<Post>;
